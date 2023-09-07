@@ -100,6 +100,12 @@ padding-top: 100px;
       clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
     }
   }
+  @media (max-width: 700px)
+  {
+
+  }
+    
+  
   .head
   {
     position: relative;
@@ -158,71 +164,6 @@ padding-top: 100px;
     top: 50px;
   }
   /*------------------------------------------------------------------*/
-  .eveGradientText-education {
-    background: linear-gradient(to right, #3E187A 0%, #9921E8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .eventDiv-education {
-
-padding-top: 100px;
-padding-left: 90px;
-    background-image: linear-gradient(to right, #27187a 0%, #4521e8 100%) !important;
-  }
-
-  .eventDiv {
-    color: #ffffff;
-    width: 100%;
-    height: 300px;
-    border-radius: 5px !important;
-    margin-left: -80px;
-
-  
-  }
-  .eventImg {
-    width: 350px !important;
-    margin-left: 50%;
-    margin-top: -60%;
-    z-index: 99999 !important;
-  }
-  .eveText {
-    text-align: right !important;
-    margin-top: 0px;
-    padding-left: 100px;
-
-  }
-@media only screen and (max-width: 1200px){
-  .eventDiv-education {
-
-padding-right: 90px;
-    text-align: center;
-  }
-  
-}
-  @media only screen and (max-width: 1200px){
-    .eventImg {
-        display: block;
-        width: 250px !important;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: -40px;
-        z-index: 99999 !important;
-    }
-    }
-    @media only screen and (max-width: 1200px){
-    .eventDiv {
-        height: 230px;
-        margin-left: 0;
-
-    }
-    }
-    @media only screen and (max-width: 1200px){
-    .eveText {
-        text-align: center !important;
-        padding-left: 0;
-    }
-    }
-  /*------------------------------------------------------------------*/
   .first
   {
     width: 100%;
@@ -232,17 +173,6 @@ padding-right: 90px;
    display: flex;
    flex-direction: row ;
      
-    }
-    @media screen and (max-width: 768px) {
-      .first {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-  
-    @media screen and (max-width: 480px) {
-      .first {
-        grid-template-columns: repeat(1, 1fr);
-      }
     }
  /*----------------------------------*/
  
