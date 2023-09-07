@@ -1,0 +1,228 @@
+body {
+  overflow: overlay;
+
+}
+html
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 
+{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7833508403361344) 30%, rgba(0,212,255,1) 95%);
+}
+
+.navbar
+{
+  position: fixed;
+  width: 100%;
+  border-radius: 0%;
+  z-index: 0;
+}
+.navbar-nav
+{
+  margin-left: 700px;
+}
+.nav-item
+{
+  font-size: 20px;
+
+}
+.custom-shape-divider-bottom-1694079440 {
+  position: absolute;
+  margin-right: 0%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1694079440 svg {
+  position: relative;
+  display: block;
+  width: calc(278% + 1.3px);
+  height: 250px;
+}
+
+.custom-shape-divider-bottom-1694079440 .shape-fill {
+  fill: #FFFFFF;
+}
+.image_wrapper {
+    position: relative;
+
+  }
+  
+  .overlay {
+   
+    position: absolute; 
+    left: 500px;
+    top: 100px;
+  }
+
+
+  .Education
+  {
+padding-top: 100px;
+    height: 750px;
+    width: 100%;
+
+    background-image: linear-gradient(170deg,#0a1287,#4b0cb1,#22187a,#3f21e8) ;
+    animation: animate 25s ease infinite alternate ;
+    background-size: 300% 100%;
+   
+  }
+  .Experience
+  {
+    padding-top: 100px;
+    height: 750px;
+    width: 100%;
+
+    background-image: linear-gradient(170deg,#6a0a87,#2e0f5f,#630997,#9f21e8) ;
+    animation: animate 25s ease infinite alternate ;
+    background-size: 300% 100%;
+  }
+
+  @media (max-width: 992px) {
+    #canvas-top {
+      width: 100%;
+      height: 80vh;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+    }
+  }
+  .head
+  {
+    position: relative;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 250px;
+
+
+  }
+  /*----------------------------------------------------------------*/
+ 
+  
+  @keyframes animate {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  /*-------------------------------------------------------------------*/
+  #gradient-canvas {
+    width:100%;
+    height:100%;
+    --gradient-color-1: #0a1287; 
+    --gradient-color-2: #4b0cb1; 
+    --gradient-color-4: #3f21e8;
+    --gradient-color-3: #22187a;  
+    --gradient-color-4: #3f21e8;
+    z-index: 0;
+  }
+  #canvas-top {
+    width: 100%;
+    height: 92vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
+  }
+  
+
+  /*--------------------------Certifictes---------------------------*/
+  img {
+    border-radius: 15px;
+  }
+  .image_wrapper
+  {
+    position: relative;
+  }
+  
+  .overlay {
+     
+    position: absolute; 
+    left: 350px;
+    top: 50px;
+  }
+  /*------------------------------------------------------------------*/
+  .first
+  {
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 100px;
+   
+   display: flex;
+   flex-direction: row ;
+     
+    }
+    @media screen and (max-width: 768px) {
+      .first {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      .first {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+ /*----------------------------------*/
+ 
+ /*card-1*/
+.card-1 {
+  position: relative;
+margin-left: 500px;
+  align-items: flex-end;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 350px;
+
+ }
+
+ .eveGradientText1 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #1e1575 0%, #4f32d3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+
+
+ /*---------------------------------*/
+
+ .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+
+.footer-basic {
+  margin-top: -20px;
+  background-color: #000000;
+  align-items: center;
+  color: #f5f5f5;
+  position: sticky;
+}
+/*--------------------------*/
+.footer
+{
+  width: 100%;
+  background-color: black;
+}
