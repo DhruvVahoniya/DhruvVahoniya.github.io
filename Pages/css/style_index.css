@@ -274,7 +274,7 @@ color: #fff;
 padding: 5px 20px;
 }
 /*________________________________________________________________*/
-@media only screen  and (max-width:1000px){
+@media only screen  and (max-width:1200px){
   
 .card-1,.card-2,.card-3 {
   position: relative;
