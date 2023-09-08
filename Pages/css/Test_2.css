@@ -1,0 +1,60 @@
+
+
+
+.eventDiv-education {
+  padding-left: 100px;
+  background-image: linear-gradient(to right, #27187a 0%, #4521e8 100%) !important;
+}
+
+.eventDiv {
+  color: #ffffff;
+  width: 100%;
+  height: 300px;
+  border-radius: 5px !important;
+  margin-left: -100px;
+
+
+}
+.eventImg {
+  width: 350px !important;
+  margin-left: 50%;
+  margin-top: -60%;
+  z-index: 99999 !important;
+}
+
+.eveText {
+  text-align: right !important;
+  padding-left: 800px;
+  margin-top: 0px;
+}
+
+
+
+.eveGradientText-education {
+  background: linear-gradient(to right, #3E187A 0%, #9921E8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1200px){
+.eventImg {
+    display: block;
+    width: 250px !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+    z-index: 99999 !important;
+}
+}
+@media only screen and (max-width: 1200px){
+.eventDiv {
+    height: 230px;
+    margin-left: 0;
+}
+}
+@media only screen and (max-width: 1200px){
+.eveText {
+    text-align: center !important;
+    padding-left: 0;
+}
+}
